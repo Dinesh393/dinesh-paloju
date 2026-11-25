@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "name": "Paloju Dinesh",
+    "location": "Hyderabad, India",
+    "email": "dineshpaloju453@gmail.com",
+    "github": "https://github.com/Dinesh393",
+    "linkedin": "https://linkedin.com/in/dinesh-paloju",
+    "site": "https://dinesh-paloju.vercel.app",
+    "resume": "/Dinesh_Resume_Main.pdf",
+    "role": "Entry-level Java Developer / Software Engineer"
+  },
+  "hero": {
+    "headline": "Paloju Dinesh",
+    "line": "I build the backend layer: Servlets, JDBC and MySQL, with authentication, roles and transactions done properly.",
+    "status": "Open to entry-level Java Developer and Software Engineer roles. Hyderabad, India.",
+    "stats": [
+      {
+        "value": "30+",
+        "label": "Java Servlets in WorkNest"
+      },
+      {
+        "value": "9",
+        "label": "MySQL tables in the WorkNest schema"
+      },
+      {
+        "value": "98%+",
+        "label": "accuracy of my B.Tech defect model"
+      }
+    ]
+  },
+  "about": {
+    "lead": "Computer Science graduate, 2026. I build backends in Java: Servlets, JDBC, MySQL, with authentication and role-based access done properly.",
+    "rows": [
+      {
+        "kind": "education",
+        "entity": "Malla Reddy Engineering College and Management Sciences",
+        "detail": "B.Tech, Computer Science Engineering",
+        "period": "Aug 2023 – Jun 2026"
+      },
+      {
+        "kind": "education",
+        "entity": "Government Polytechnic College, Nalgonda",
+        "detail": "Diploma, Electrical and Electronics Engineering",
+        "period": "Aug 2020 – Apr 2023"
+      },
+      {
+        "kind": "experience",
+        "entity": "BrainOvision Solutions",
+        "detail": "Generative AI virtual internship",
+        "period": "May 2025 – Jul 2025"
+      },
+      {
+        "kind": "certification",
+        "entity": "Infosys Springboard",
+        "detail": "Programming using Java",
+        "period": "Nov 26, 2025"
+      },
+      {
+        "kind": "certification",
+        "entity": "Internshala",
+        "detail": "Web Development Training",
+        "period": "Dec 2024"
+      }
+    ],
+    "ai": {
+      "title": "How I work with AI",
+      "text": "I use AI as a fast pair programmer: it speeds up boilerplate, debugging and first drafts, so I can spend my time on schema design, request flow and edge cases. I decide the structure, read every line it gives me, run it and test it before it goes into a project. It saves me hours, and I stay accountable for every line I ship."
+    }
+  },
+  "skillGroups": [
+    {
+      "group": "Programming",
+      "items": [
+        {
+          "name": "Core Java (Java 8+)",
+          "usedBy": [
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "OOP",
+          "usedBy": [
+            "worknest",
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "Collections Framework",
+          "usedBy": []
+        },
+        {
+          "name": "Exception Handling",
+          "usedBy": []
+        },
+        {
+          "name": "Multithreading",
+          "usedBy": []
+        },
+        {
+          "name": "DSA",
+          "usedBy": []
+        }
+      ]
+    },
+    {
+      "group": "Backend",
+      "items": [
+        {
+          "name": "Servlets",
+          "usedBy": [
+            "worknest"
+          ]
+        },
+        {
+          "name": "JSP",
+          "usedBy": []
+        },
+        {
+          "name": "JDBC",
+          "usedBy": [
+            "worknest",
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "Hibernate / JPA",
+          "usedBy": []
+        },
+        {
+          "name": "Spring",
+          "usedBy": []
+        },
+        {
+          "name": "Spring Boot",
+          "usedBy": []
+        },
+        {
+          "name": "REST APIs",
+          "usedBy": []
+        },
+        {
+          "name": "JSON",
+          "usedBy": []
+        },
+        {
+          "name": "MVC",
+          "usedBy": []
+        }
+      ]
+    },
+    {
+      "group": "Database and web",
+      "items": [
+        {
+          "name": "MySQL",
+          "usedBy": [
+            "worknest",
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "SQL, joins, indexing",
+          "usedBy": [
+            "worknest",
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "Transactions (ACID)",
+          "usedBy": [
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "HTML, CSS, JavaScript",
+          "usedBy": [
+            "worknest"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        {
+          "name": "Git, GitHub",
+          "usedBy": []
+        },
+        {
+          "name": "Eclipse IDE",
+          "usedBy": [
+            "approvalflow"
+          ]
+        },
+        {
+          "name": "MySQL Workbench",
+          "usedBy": []
+        },
+        {
+          "name": "Docker",
+          "usedBy": [
+            "worknest"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "B.Tech project",
+      "items": [
+        {
+          "name": "Python",
+          "usedBy": [
+            "defect"
+          ]
+        },
+        {
+          "name": "Scikit-learn",
+          "usedBy": [
+            "defect"
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "worknest",
+      "title": "WorkNest",
+      "type": "Freelance marketplace",
+      "problem": "Clients need somewhere to post projects, and freelancers need to send proposals and manage delivery.",
+      "approach": "30+ Java Servlets over a 9-table MySQL schema using JDBC and PreparedStatement, with session-based authentication and role-based access. AI generates project descriptions and cover letters. Deployed with Docker on Render, with MySQL on Aiven.",
+      "tools": [
+        "Java Servlets",
+        "JDBC",
+        "MySQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Docker",
+        "Render",
+        "Aiven"
+      ],
+      "kpis": [
+        {
+          "label": "Java Servlets",
+          "value": "30+"
+        },
+        {
+          "label": "MySQL tables",
+          "value": "9"
+        }
+      ],
+      "flow": [
+        "Browser",
+        "Servlets (30+)",
+        "Auth + role check",
+        "PreparedStatement",
+        "MySQL on Aiven"
+      ],
+      "figureNote": "Counts are from my resume. The flow diagram is illustrative.",
+      "probe": "30+ servlets / 9 tables",
+      "github": "[EDIT ME]",
+      "live": "[EDIT ME: Live Demo URL from your resume]",
+      "code": "WN"
+    },
+    {
+      "id": "approvalflow",
+      "title": "ApprovalFlow",
+      "type": "Multi-level approval system",
+      "problem": "Employees submit requests that need sign-off from more than one manager, with a record of who decided what.",
+      "approach": "Core Java, JDBC and MySQL. User authentication, role-based access control, approval history tracking, and transaction management so a multi-step decision is applied as a unit.",
+      "tools": [
+        "Core Java",
+        "JDBC",
+        "MySQL",
+        "Eclipse IDE"
+      ],
+      "kpis": [
+        {
+          "label": "Roles",
+          "value": "Employee, Manager"
+        }
+      ],
+      "flow": [
+        "Employee request",
+        "Manager level 1",
+        "Manager level n",
+        "Approve / reject",
+        "History log"
+      ],
+      "figureNote": "The flow diagram is illustrative of the workflow described in my resume.",
+      "probe": "JDBC transactions",
+      "github": "[EDIT ME]",
+      "live": "",
+      "code": "AF"
+    },
+    {
+      "id": "defect",
+      "title": "Surface Defect Detection",
+      "type": "B.Tech final-year project, team of 4",
+      "problem": "Surface faults were being found by manual inspection.",
+      "approach": "A multi-scale CNN trained and evaluated in Python with Scikit-learn on 1,000+ image samples.",
+      "tools": [
+        "Python",
+        "Scikit-learn",
+        "VS Code",
+        "Jupyter Notebook"
+      ],
+      "kpis": [
+        {
+          "label": "Image samples",
+          "value": "1,000+"
+        },
+        {
+          "label": "Team size",
+          "value": "4"
+        }
+      ],
+      "bar": {
+        "label": "Reported accuracy (98%+)",
+        "value": 98
+      },
+      "flow": [
+        "1,000+ images",
+        "CNN model",
+        "Scikit-learn eval",
+        "Defect class"
+      ],
+      "figureNote": "Figures are from my resume. The flow diagram is illustrative.",
+      "probe": "98%+ accuracy / 1,000+ samples",
+      "github": "[EDIT ME]",
+      "live": "",
+      "code": "SD"
+    }
+  ],
+  "contact": {
+    "cta": "Hire me",
+    "line": "A Java developer who reads, runs and tests everything that ships."
+  },
+  "layers": [
+    {
+      "id": "client",
+      "label": "Client",
+      "section": "hero"
+    },
+    {
+      "id": "servlet",
+      "label": "Servlet",
+      "section": "about"
+    },
+    {
+      "id": "service",
+      "label": "Service",
+      "section": "skills"
+    },
+    {
+      "id": "dao",
+      "label": "DAO · JDBC",
+      "section": "projects"
+    },
+    {
+      "id": "deploy",
+      "label": "Deploy",
+      "section": "contact"
+    }
+  ]
+}
